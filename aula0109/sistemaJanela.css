@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #b91600;
+
+}
+
+body {
+    background: #ccc url("../img/plano-de-fundo.jpg") no-repeat right top fixed;
+}
+
+footer {
+    position: absolute;
+    top: auto;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: #222;
+    display: grid;
+    grid-template-columns: 130px auto 130px;
+    vertical-align: middle;
+}
+
+#menu #start {
+    display: flex;
+    width: 100px;
+    background-color: #333;
+    font-size: 10px;
+    margin-top: 5px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#icones #icones {
+    display: flex;
+    width: 100px;
+    background-color: #333;
+    font-size: 10px;
+    margin-top: 5px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+
+#utilitario #relogio  {
+    display: flex;
+    width: 100px;
+    background-color: #333;
+    font-size: 10px;
+    margin-top: 5px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+
+#menu #start:hover,
+#icones #icones:hover,
+#utilitario #utilitario:hover {
+    background-color: #444;
+}
+
+#menu-ativo {
+    width: 260px;
+    height: 360px;
+    background-color: #222;
+    position: absolute;
+    top: auto;
+    bottom: 50px;
+    border-top-right-radius: 5px;
+}
+
+#menu-ativo .itens-menu-ativo{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 30px;
+
+}
+
+#janela{
+    display: block;
+    width: 1280px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+span{
+    border: 1px solid red;
+}
+
+#janela #janela-titulo{
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    height: 30px;
+    border: 1px solid blue;
+}
+
+#botoes-controle #fechar{
+    cursor: pointer;
+}
+#botoes-controle #fechar:hover{
+    font-weight: bold;
+}

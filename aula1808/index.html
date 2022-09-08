@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function calcular(){
+            const tabNumber = $("#tabuada").val()
+            const tabDiv = $("#tabuadaPlace")
+            var tabList = "<ul>";     
+            for(i = 1; i <= 10; i++){
+                let product = tabNumber * i
+                tabList+=`<li>${product}</li>`;
+            }
+            tabList += "</ul>";
+            tabDiv.append(tabList)
+        }
+    </script>
+</head>
+
+<body>
+    <div>
+        <label>
+            Tabuada
+            <input id="tabuada" type="text" placeholder="Digite o número da tabuada">
+        </label>
+        <button onclick="calcular()">Calcular</button>
+    </div>
+    <div id="tabuadaPlace">
+
+    </div>
+</body>
+
+</html>

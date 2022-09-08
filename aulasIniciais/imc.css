@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    /* border: 1px solid red; */
+}
+main{
+    margin-top: 30px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgba(30,144,255, 0.6);
+    width: 25%;
+    height: 25%;
+    /* margin-left: auto; */
+    margin-right: auto;
+}
+main h1{
+    text-size-adjust: inherit;
+    text-align: center;
+}
+
+.btn{
+    margin-top: 10px;
+}
+
+#tabelaIMC{
+    /* border: 1px solid red; */
+    margin: 20px 25px 0 25px;
+    height: 400px;
+    width: 33%;
+    font-size: 13px;
+}
+
+#tabelaIMC p{
+    text-align: center;
+}
